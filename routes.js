@@ -1,4 +1,3 @@
-
 (function(){
 	
 	'use srict';
@@ -10,6 +9,7 @@
 		app.route('/story/:storyId?')
 		.post(controller.parseAndSave)
 		.get(controller.sendStory)
+
 
 	};
 
